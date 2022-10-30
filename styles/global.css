@@ -1,0 +1,69 @@
+/****************************** RESET ******************************/
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Основные параметры */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  min-width: 320px;
+  height: 100%;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: calc(1280px + 30px);
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+/****************************** VARIABLES ******************************/
+:root {
+  --accent: #3172B9;
+  --accentLight: #71A7E2;
+  --accentDark: #0E3B6C;
+  --textDark: #1C1C1C;
+  --textLight: #787878;
+}
