@@ -1,7 +1,7 @@
 /****************************** RESET ******************************/
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 *,
@@ -23,6 +23,12 @@ ul li {
 
 img {
   max-width: 100%;
+}
+
+.btn-reset {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /* Основные параметры */
@@ -61,9 +67,9 @@ body.lock {
 
 /****************************** VARIABLES ******************************/
 :root {
-  --accent: #3172B9;
-  --accentLight: #71A7E2;
-  --accentDark: #0E3B6C;
-  --textDark: #1C1C1C;
-  --textLight: #787878;
+  --accent: #FF7043;
+  --accentLight: #FF8B66;
+  --accentDark: #FF5621;
+  --white: #ffffff;
+  --black: #000000;
 }
